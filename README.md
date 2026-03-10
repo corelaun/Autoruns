@@ -18,6 +18,6 @@ Autoruns can disable critical components, so a cautious workflow helps you avoid
 * **Focus on what matters:** start by hiding operating system entries to reduce noise and make third-party autostarts easier to review.
 * **Verify what you’re changing:** prioritize entries with clear publisher information and recognizable file paths. Treat **unsigned**, **unknown**, or **oddly located** files (for example, in temporary or user-writable folders) as higher risk and investigate before disabling.
 * **Create a restore path:** before major cleanup, create a **System Restore point** or a full backup, especially on production machines.
-**Performance and stability tip:** turning off unnecessary updaters, toolbars, and outdated helper components can help improve boot speed and reduce background resource usage. However, avoid disabling security software, drivers, or essential system services unless you are certain about their function.
+Performance and stability tip: disabling non-essential updaters, toolbars, and outdated helper modules may improve startup speed and lower background system load. Be careful not to disable security tools, drivers, or critical system services unless you clearly understand their purpose.
 
-If you'd like, I can also add a third optional section such as **“Common use cases”** (startup cleanup, checking for malware persistence, or troubleshooting boot issues), written in the same style.
+If you want, I can also include an additional section such as “Common use cases” (for example: cleaning up startup entries, checking for malware persistence, or diagnosing boot problems), written in the same style.
